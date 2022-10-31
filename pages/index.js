@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import About from "../components/About";
 import Features from "../components/Features";
+import Subscribe from "../components/Subscribe";
 
 export default function Home() {
   return (
@@ -46,6 +47,7 @@ export default function Home() {
         </div>
         <About />
         <Features />
+        <Subscribe />
       </main>
       <footer className={styles.footer}>
         <a

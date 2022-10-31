@@ -1,7 +1,9 @@
 export default function Features() {
   return (
-    <div className="mt-4">
-      <h1 className="font-bold text-center">Get access quick access to</h1>
+    <div className="mt-4 w-full">
+      <h1 className="font-bold text-2xl text-center">
+        Get access quick access to
+      </h1>
       <div className="w-full flex flex-col md:flex-row my-4 justify-between">
         <div className="w-full md:w-[30%] mt-2 shadow-md rounded-md p-2 flex flex-col items-center">
           <div className="w-full flex justify-center my-2">
