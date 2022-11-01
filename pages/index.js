@@ -18,7 +18,7 @@ export default function Home() {
     wakeBackend();
   }, []);
   return (
-    <div>
+    <div className="bg-white">
       <Head>
         <title>Agacy Inc</title>
         <meta
