@@ -23,7 +23,7 @@ export default function Subscribers({ data }) {
       <Head>
         <title>Agacy Inc</title>
         <meta name="description" content="Admin panel" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="w-[90%] ml-[5%] mt-8">
         <h1 className="font-bold text-2xl">Agacy Inc Subscribers</h1>
