@@ -7,8 +7,16 @@ import About from "../components/About";
 import Features from "../components/Features";
 import Subscribe from "../components/Subscribe";
 import Footer from "../components/Footer";
+import { useEffect } from "react";
+import { wakeServer } from "../services/endpoints";
 
 export default function Home() {
+  useEffect(() => {
+    const wakeBackend = async () => {
+      const res = await wakeServer();
+    };
+    wakeBackend();
+  }, []);
   return (
     <div>
       <Head>
