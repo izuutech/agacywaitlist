@@ -5,7 +5,7 @@ export default function Features() {
         Get access quick access to
       </h1>
       <div className="w-full flex flex-col md:flex-row my-4 justify-between">
-        <div className="w-full md:w-[30%] mt-2 shadow-md rounded-md p-2 flex flex-col items-center">
+        <div className="w-full md:w-[30%] mt-2 shadow-md rounded-md px-2 py-8 flex flex-col items-center">
           <div className="w-full flex justify-center my-2">
             <img src="/repair.png" className="w-1/5 md:1/12 aspect-auto" />
           </div>
@@ -16,7 +16,7 @@ export default function Features() {
           </div>
           <div className="w-[30%] bg-[#00983D] py-1 my-2"></div>
         </div>
-        <div className="w-full md:w-[30%] mt-2 shadow-md rounded-md p-2 flex flex-col items-center">
+        <div className="w-full md:w-[30%] mt-2 shadow-md rounded-md px-2 py-8 flex flex-col items-center">
           <div className="w-full flex justify-center my-2">
             <img src="/freelance.png" className="w-1/5 md:1/12 aspect-auto" />
           </div>
@@ -27,7 +27,7 @@ export default function Features() {
           </div>
           <div className="w-[30%] bg-[#00983D] py-1 my-2"></div>
         </div>
-        <div className="w-full md:w-[30%] mt-2 shadow-md rounded-md p-2 flex flex-col items-center">
+        <div className="w-full md:w-[30%] mt-2 shadow-md rounded-md px-2 py-8 flex flex-col items-center">
           <div className="w-full flex justify-center my-2">
             <img src="/repair.png" className="w-1/5 md:1/12 aspect-auto" />
           </div>
