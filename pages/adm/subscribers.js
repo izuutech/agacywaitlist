@@ -33,11 +33,17 @@ export default function Subscribers({ data }) {
         </h3>
         <div className="w-full">
           {subscribers &&
+            subscribers[0] &&
             subscribers.map((subscriber) => (
               <div className="px-2 py-4 border-b" key={subscriber.email}>
                 {subscriber.email}
               </div>
             ))}
+          {subscribers && !subscribers[0] && (
+            <div className="px-2 py-4 border-b text-red-700 w-full flex justify-center">
+              <span>No subscribers yet</span>
+            </div>
+          )}
         </div>
       </div>
       <ToastContainer />
