@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000";
+// const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://agacywaitlist-backend.onrender.com";
 
 export const wakeServer = async () => {
   try {
