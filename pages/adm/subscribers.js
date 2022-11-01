@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { fetchList } from "../../services/endpoints";
 import { ToastContainer, toast } from "react-toastify";
@@ -26,7 +27,9 @@ export default function Subscribers({ data }) {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="w-[90%] ml-[5%] mt-8">
-        <h1 className="font-bold text-2xl">Agacy Inc Subscribers</h1>
+        <Link href="/">
+          <h1 className="font-bold text-2xl">Agacy Inc Subscribers</h1>
+        </Link>
         <h3>
           These is a list of individuals and their emails waiting for us to
           launch
