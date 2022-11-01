@@ -10,7 +10,7 @@ export default function About() {
             proving top-notch buying and selling experience
           </span>
         </div>
-        <div className="w-3/4 md:w-3/12">
+        <div className="w-3/5 md:w-3/12">
           <img
             src="/Flat-illustrations-transformed.png"
             className="w-full aspect-auto"

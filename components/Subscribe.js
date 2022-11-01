@@ -2,7 +2,7 @@ import EmailInput from "./EmailInput";
 
 export default function Subscribe() {
   return (
-    <div className="w-full my-8">
+    <div className="w-full my-12">
       <h1 className="font-bold text-center text-2xl">
         Sign Up for our Newsletter
       </h1>
