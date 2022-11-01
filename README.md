@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Important endpoints
+
+- / (this is homepage)
+- /adm/subscribers (this is page for viewing list of all subscribers)
+
 ## Getting Started
 
 First, run the development server:
