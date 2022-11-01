@@ -61,7 +61,10 @@ export default function Home() {
             </div>
           </div>
           <div className="h-48 md:h-full flex justify-center">
-            <img src="/agacyPhone.png" className="h-full aspect-auto" />
+            <img
+              src="/agacyPhone.png"
+              className="h-full aspect-auto z-2 relative"
+            />
           </div>
         </div>
         <About />
