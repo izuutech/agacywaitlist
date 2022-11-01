@@ -28,10 +28,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <img
-        src="/ellipse.png"
-        className="absolute right-0 w-2/4 aspect-auto z-[-1]"
-      />
+      <img src="/ellipse.png" className="absolute right-0 w-2/4 aspect-auto" />
 
       <header className="w-[90%] ml-[5%] pt-8 mb-8 flex flex-row justify-between items-center">
         <Link href="/" className="w-52">
