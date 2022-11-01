@@ -24,6 +24,6 @@ export const fetchList = async () => {
     const res = await axios.get(`${BASE_URL}/emails`);
     return res;
   } catch (error) {
-    console.log(error);
+    return error.response;
   }
 };
