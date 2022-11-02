@@ -4,7 +4,7 @@ import { TfiTwitter } from "react-icons/tfi";
 
 export default function Footer() {
   return (
-    <footer className="w-[100%] bg-[#3E3E3E] py-4">
+    <footer className="w-[100%] bg-[#3E3E3E] py-4 text-black">
       <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="text-white text-xl">Follow us on</div>
         <div className="ml-2 flex mt-2 md:mt-0">

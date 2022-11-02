@@ -20,7 +20,10 @@ export default function EmailInput() {
     }
   };
   return (
-    <form onSubmit={submit} className="w-full flex justify-center my-4">
+    <form
+      onSubmit={submit}
+      className="w-full flex justify-center my-4 text-black"
+    >
       <div className="rounded-full w-full md:w-[60%] flex bg-slate-100 overflow-hidden">
         <input
           type="email"

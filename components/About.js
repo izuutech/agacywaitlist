@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="mt-2">
+    <div className="mt-2 text-black">
       <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
         <div className="w-full md:w-4/12">
           <h3 className="font-bold">What is Agacy?</h3>

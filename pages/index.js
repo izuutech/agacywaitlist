@@ -58,7 +58,7 @@ export default function Home() {
           <GiHamburgerMenu />
         </div>
       </header>
-      <main className="w-[90%] ml-[5%]">
+      <main className="w-[90%] ml-[5%] text-black">
         <div className="flex flex-col md:flex-row">
           <div>
             <div className="text-white text-2xl bg-[#1C9BF1] w-4/5 md:w-3/4 py-2 px-4">

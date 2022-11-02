@@ -1,6 +1,6 @@
 export default function Features() {
   return (
-    <div className="mt-4 w-full">
+    <div className="mt-4 w-full text-black">
       <h1 className="font-bold text-2xl text-center">
         Get access quick access to
       </h1>
