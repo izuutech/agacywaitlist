@@ -24,6 +24,7 @@ export default function Subscribers({ data }) {
       <Head>
         <title>Agacy Inc</title>
         <meta name="description" content="Admin panel" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="w-[90%] ml-[5%] mt-8">

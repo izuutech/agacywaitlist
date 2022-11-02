@@ -23,16 +23,31 @@ export default function Home() {
         <title>Agacy Inc</title>
         <meta
           name="description"
-          content="Your One Stop Online Purchase Solution. Get all you want in one place"
+          content="Your One Stop Online Purchase Solution. Get all you want in one place with Agacy Inc"
         />
+        <meta
+          name="og:title"
+          property="og:title"
+          content="Agacy is your one stop online purchase solution "
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
+        <link rel="canonical" href="https://agacy.io/" />
       </Head>
 
-      <img src="/ellipse.png" className="absolute right-0 w-2/4 aspect-auto" />
+      <img
+        src="/ellipse.png"
+        className="absolute right-0 w-2/4 aspect-auto"
+        alt="circle"
+      />
 
       <header className="w-[90%] ml-[5%] pt-8 mb-8 flex flex-row justify-between items-center">
         <Link href="/" className="w-52">
-          <img src="/logo.png" className="w-[70%] aspect-auto" />
+          <img
+            src="/logo.png"
+            className="w-[70%] aspect-auto"
+            alt="agacy logo"
+          />
         </Link>
         <div className="hidden sm:flex justify-between sm:w-[50%] md:w-[30%]">
           <Link href="/">Home</Link>
